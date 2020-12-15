@@ -27,7 +27,7 @@ double pythagoras(double xcomp, double ycomp){
 	double l=sqrt((pow(xcomp,2)+(pow(ycomp,2))));
 	return l;
 }
-double showResult(double result_vec_length,double result_vec_direction){
+void showResult(double result_vec_length,double result_vec_direction){
 	cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%";
 	cout << "\nLength of the resultant vector = " << result_vec_length;
 	cout << "\nDirection of the resultant vector (deg) = " << result_vec_direction;
